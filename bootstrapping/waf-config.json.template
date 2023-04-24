@@ -1,0 +1,20 @@
+{
+    "WebACLName": "PA_WEB_ACL_NAME",
+    "WebACLId": "PA_WEB_ACL_ID",
+    "WebACLScope": "PA_WEB_ACL_SCOPE",
+    "WebACLRegion": "PA_WEB_ACL_REGION",
+    "WebACLRuleIndexDistributionId": "PA_WEB_ACL_RULE_INDEX_DISTRIBUTION_ID",
+    "WebACLRuleIndexBucket": "PA_WEB_ACL_RULE_INDEX_BUCKET",
+    "WebACLRuleIndexObjectKey": "PA_WEB_ACL_RULE_INDEX_OBJECT_KEY",
+    "AllowedHeaderName": "X-PA-GameClient",
+    "AllowedHeaderValueMap":
+    {
+        "1": "Ragdoll",
+        "2": "Siamese",
+        "3": "Birman",
+        "4": "British_Shorthair_Cat",
+        "5": "American_Shorthair",
+        "6": "Persian_Cat",
+        "7": "Exotic_Shorthair"
+    }
+}

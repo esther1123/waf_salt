@@ -1,0 +1,20 @@
+{
+    "WebACLName": "waf-salt-acl",
+    "WebACLId": "6ceeb95f-b65b-4c4b-a47c-6b4f344249fb",
+    "WebACLScope": "REGIONAL",
+    "WebACLRegion": "ap-northeast-1",
+    "WebACLRuleIndexDistributionId": "E1EUG6GAQBWCLW",
+    "WebACLRuleIndexBucket": "waf-salt-rule-index-ap-northeast-1-8986",
+    "WebACLRuleIndexObjectKey": "waf-salt-rule-key.txt",
+    "AllowedHeaderName": "X-PA-GameClient",
+    "AllowedHeaderValueMap":
+    {
+        "1": "Ragdoll",
+        "2": "Siamese",
+        "3": "Birman",
+        "4": "British_Shorthair_Cat",
+        "5": "American_Shorthair",
+        "6": "Persian_Cat",
+        "7": "Exotic_Shorthair"
+    }
+}

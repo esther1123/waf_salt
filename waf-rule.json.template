@@ -1,0 +1,29 @@
+{
+  "Name": "AllowedGameClientHeader",
+  "Priority": 0,
+  "Action": {
+    "Allow": {}
+  },
+  "VisibilityConfig": {
+    "SampledRequestsEnabled": true,
+    "CloudWatchMetricsEnabled": true,
+    "MetricName": "AllowedGameClientHeader"
+  },
+  "Statement": {
+    "ByteMatchStatement": {
+      "FieldToMatch": {
+        "SingleHeader": {
+          "Name": "PA_ALLOWED_HEADER_NAME"
+        }
+      },
+      "PositionalConstraint": "EXACTLY",
+      "SearchString": "PA_ALLOWED_HEADER_VALUE",
+      "TextTransformations": [
+        {
+          "Type": "NONE",
+          "Priority": 0
+        }
+      ]
+    }
+  }
+}
